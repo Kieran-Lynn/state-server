@@ -1,18 +1,18 @@
 # State Server
 
 This node app takes in two coordinates and finds what state those coordinates 
-in. It reads the state coordinate boundries from states.json.
+are in. It reads the state coordinate boundries from states.json.
 
-To run the app simply run.
+Clone this repo and then install all dependencies with: 
+
+  ```bash
+  npm install
+  ```
+
+Start the server:
 
   ```bash
   npm start
-  ```
-
-To run all tests. Run:
-
-  ```bash
-  npm test
   ```
 
 Once the app is running call with a curl command: 
@@ -22,3 +22,10 @@ Once the app is running call with a curl command:
   ```
 
 A JSON object containing the state will be output.
+
+
+Run all tests:
+
+  ```bash
+  npm test
+  ```
