@@ -1,0 +1,25 @@
+{
+  "name": "state-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Kieran Lynn",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "karma": "^1.7.0",
+    "mocha": "^3.4.2"
+  }
+}
