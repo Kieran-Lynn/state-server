@@ -1,5 +1,4 @@
 const app = require('../src/app.js');
-const utils = require('../src/utils.js');
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 
